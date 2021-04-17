@@ -1,7 +1,7 @@
 import hid
 import time
 
-devs = hid.enumerate(0x0665, 0x5161)
+devs = hid.enumerate(0x0665, 0x5161) // 0665:5161
 
 def parseQGS(s):
 	parts = s.split(' ')
